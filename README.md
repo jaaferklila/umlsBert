@@ -15,6 +15,22 @@ cd umlsBert
 
 ---
 
+### Create a Virtual Environment
+It is recommended to create a virtual environment to manage dependencies:
+#### On Windows:
+```bash
+python -m venv venv
+venv\Scripts\activate
+```
+
+#### On macOS/Linux:
+```bash
+python3 -m venv venv
+source venv/bin/activate
+```
+
+---
+
 ### Install Dependencies
 Install all necessary dependencies from the `requirements.txt` file:
 ```bash
@@ -29,5 +45,5 @@ Run the main script to process the UMLS data:
 python process_umls.py
 ```
 
-
+---
 
