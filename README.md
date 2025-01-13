@@ -1,6 +1,5 @@
 # UMLSBert
 
-A repository for processing and analyzing UMLS data with BERT models.
 
 ---
 
