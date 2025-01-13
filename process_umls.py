@@ -87,7 +87,7 @@ print("*****************************************************************")
 training_args = TrainingArguments(
     output_dir="./bert_d",
     overwrite_output_dir=True,
-    num_train_epochs=3,  # Adjust as needed
+    num_train_epochs=10,  # Adjust as needed
     per_device_train_batch_size=16,
     save_steps=5000,
     save_total_limit=2,
