@@ -1,2 +1,6 @@
-pip install datasets
-pip install huggingface_hub
+datasets
+huggingface_hub
+torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu118
+transformers
+accelerate
+ipywidgets
